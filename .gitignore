@@ -1,0 +1,60 @@
+# Исключить папки из Git
+_notGit/
+Uploads/
+logs/
+configs/
+
+# Исключить файл логов
+logs/app.log
+
+
+# Исключить виртуальное окружение
+venv/
+env/
+
+# Исключить файл с переменными окружения
+.env
+
+# Игнорировать настройки среды
+.idea/
+*.iml
+*.xml
+*.json
+*.txt
+
+
+/Client/.next
+/Client/dist
+/Client/node_modules
+.DS_Store
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Next.js
+.next/
+out/
+dist/
+.cache/
+.turbo/
+
+# Env
+.env.local
+.env.development
+.env.production
+
+# Logs
+*.log
+
+# OS files
+
+Thumbs.db
+
+# IDE configs
+.vscode/
+
